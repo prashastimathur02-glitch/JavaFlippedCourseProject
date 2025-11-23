@@ -1,0 +1,70 @@
+# Student Grade Management System
+
+## Objective
+This Java program manages student marks for 5 subjects. It calculates total marks, percentage, and grade, and displays the student report using a menu-driven system.
+
+---
+
+## Technologies Used
+- Java (JDK 17+)
+- IntelliJ IDEA
+
+---
+
+## Features
+- Add student details (Name, Roll No, Marks in 5 subjects)
+- Calculate total marks and percentage
+- Assign grade based on percentage
+- Display all students
+- Menu-driven system for easy navigation
+
+---
+
+## How to Run
+1. Open the project in IntelliJ IDEA.
+2. Run `Main.java`.
+3. Follow the menu:
+   - **1** → Add Student
+   - **2** → Display All Students
+   - **3** → Exit
+
+---
+
+## System Design / Algorithm
+1. Display the main menu.
+2. Add student details (name, roll no, marks in 5 subjects).
+3. Calculate total marks and percentage.
+4. Assign grade based on percentage:
+   - 90–100 → A
+   - 80–89 → B
+   - 70–79 → C
+   - 60–69 → D
+   - Below 60 → F
+5. Display all students with total, percentage, and grade.
+6. Exit program.
+
+---
+
+## Screenshots
+
+### Program Code
+[![Program Code](SCREENSHOTS/PROGRAM_CODE.PNG)](SCREENSHOTS/PROGRAM_CODE.PNG)
+[![Output 1](SCREENSHOTS/OUTPUT1.PNG)](SCREENSHOTS/OUTPUT1.PNG)
+[![Output 2](SCREENSHOTS/OUTPUT2.PNG)](SCREENSHOTS/OUTPUT2.PNG)
+
+---
+
+## Conclusion
+This project demonstrates:
+- Handling user input in Java.
+- Performing calculations and assigning grades.
+- Using arrays or objects to store student data.
+- Displaying results in a structured and easy-to-read format.
+
+The menu-driven system allows easy addition and viewing of student records and can be extended for more features in the future.
+
+---
+
+## Notes
+- Place all screenshot files in the `SCREENSHOTS` folder in the root directory.
+- File names are **case-sensitive**, so ensure they match the Markdown references exactly.
